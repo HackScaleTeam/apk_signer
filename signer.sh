@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "==============================="
-echo "📦 APK Signing (Google Play OK)"
+echo " APK Signing (Google Play OK)"
 echo "==============================="
 
 
@@ -53,4 +53,4 @@ echo "[+] Verifying signed APK..."
 apksigner verify --verbose --print-certs "$APK_SIGNED"
 
 echo ""
-echo "[✅] Done! Signed APK: $APK_SIGNED"
+echo "[+] Done! Signed APK: $APK_SIGNED"
